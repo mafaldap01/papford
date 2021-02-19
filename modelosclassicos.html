@@ -1,183 +1,115 @@
 <!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </head>
 
-<head>
-    <meta lang="pt-pt">
-	<meta charset="utf-8">
-    <title>Modelos Clássicos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
 <body>
 
-    <style>
-        body {
-            background-image: url("./img/wallpaper.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
-            background-size: 100% 100%;
-        }
-        
-        img{
-            width: 100%;
-        }
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #0862bb;">     
+        <a class="navbar-brand text-success" href="index.html"> 
+          <img src="./img/ford-logo.png" alt="logo" style="width: 50%; margin-top: 40px;">
+        </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+      <li class="nav-item ">
+          <a class="nav-link" href="index.html" style="color: black;"><b>Home</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="historia.html" style="color: black;"><b>História</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="modelosclassicos.html" style="color: black;"><b>Modelos Clássicos</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="modelosmodernos.html" style="color: black;"><b>Modelos Modernos</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="contactos.html" style="color: black;"><b>Contactos</b></a>
+      </li>
+  </ul>
+  </div>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Escreve...">
+    <button class="btn btn-light" type="submit">Pesquisar</button>
+  </form>
+  
+  </nav>
 
+    <div class = "container">
+        <div class="bloco-texto">
+            <h3 style="margin-top: 10px;"> Ford Vedette (1948)</h3>
+                <img class = "carLeft" src="./img/fordvedette.JPG" width = "200px" height="auto"></img>
+            <p class="border">
+                Ford Vedette foi o primeiro grande lançamento de carro do período pós-Segunda Guerra Mundial, produzido pela filial francesa da Ford. Seu primeiro lançamento foi no Salão de Paris, em outubro de 1948. "Vedette", na grafia francesa significa sentinela de cavalaria, mas também está associado à figura de belas mulheres popularmente conhecidas como dançarinas e coristas nas casas de espetáculos, shows e cabarés daquela época. Vedette virou sinônimo popular de sensualidade, ousadia e diversão, o que também foi apropriado pelos modelos de carros lançados pela Ford, mostrando curvas e design que remetiam ao corpo feminino.
+            </p>
 
-    </style>
+            <h3 style="margin-top: 50px; text-align: right;"> Ford Zephyr (1955)</h3>
+                <img class = "carRight" src="./img/fordzephyr.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Ford Zephyr é um carro construído pela Ford da Bretanha no Reino Unido. Foi comercializado entre os anos 1950 e 1962, como um poderoso modelo de seis cilíndros. A partir de 1962 eram vendidos modelos de quatro cilíndros também.
+            </p>
 
+            <h3 style="margin-top: 50px;">Ford Bronco (1966)</h3>
+                <img class = "carLeft" src="./img/fordbronco.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Ford Bronco é um automóvel que foi produzido entre 1966 e 1996 pela Ford Motor Company, com cinco diferentes gerações.
+                O Ford Bronco foi inicialmente produzido como um concorrente do Jeep CJ5, sendo mais confortável que ele. Doze unidades do modelo vieram para o Brasil em 1966-67 por doação do governo americano ao IBGE, e destes, poucos ainda rodam.
+                O modelo Ford Bronco Branco ficou famoso em 1994 por protagonizar a famosa fuga de O. J. Simpson, quando foi acusado do homicídio de sua ex-esposa Nicole Brown Simpson, a qual foi assassinada em sua casa em Los Angeles, Califórnia, junto com seu amigo Ronald Goldman.
+            </p>
 
-    <nav id="Menuprincipal">
-        <ul>
-            <img src="img/ford-logo.png" class="img">
-            <li><a href= "index.html"><b>Home</b></a></li>
-            <li><a href= "historia.html"><b>História</b></a></li>
-            <li><a href= "modelosclassicos.html"><b>Modelos Clássicos</b></a></li>
-            <li><a href= "modelosmodernos.html"><b>Modelos Modernos</b></a></li>
-            <li><a href= "contactos.html"><b>Contactos</b></a></li>
-        </ul>
-    </nav>
-    
-        <div class="container">
-            <div class="texto">
-        
-            <h3> Ford Vedette (1948)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordvedette.JPG" class="img1" alt="fordvedette" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
+            <h3 style="margin-top: 50px; text-align: right;">Ford Torino (1968)</h3>
+                <img class = "carRight" src="./img/fordtorino.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Ford Torino é um carro de tamanho médio produzido para o mercado dos Estados Unidos entre 1968 e 1976. inicialmente foi uma remodelação maior do Ford Fairlane, que foi produzido pela Ford entre 1962 e 1970. Após 1968, o nome Torino foi incluído nos carros do modelo Fairlane, sendo considerado uma nova série deste último modelo. A partir de 1970, Fairlane passou a ser considerado como uma sub-série do Torino.</p>
+            </p>
 
-                <td>
-                    <p class="border">
-                    <p>Ford Vedette foi o primeiro grande lançamento de carro do período pós-Segunda Guerra Mundial, produzido pela filial francesa da Ford. Seu primeiro lançamento foi no Salão de Paris, em outubro de 1948. "Vedette", na grafia francesa significa sentinela de cavalaria, mas também está associado à figura de belas mulheres popularmente conhecidas como dançarinas e coristas nas casas de espetáculos, shows e cabarés daquela época. Vedette virou sinônimo popular de sensualidade, ousadia e diversão, o que também foi apropriado pelos modelos de carros lançados pela Ford, mostrando curvas e design que remetiam ao corpo feminino.</p>
-                    </p>
-                </td>
-            </table>
+            <h3 style="margin-top: 50px;">Ford Corcel (1968)</h3>
+                <img class = "carLeft" src="./img/fordcorcel.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Corcel foi um automóvel médio produzido pela Ford no Brasil, de 1968 a 1986. Foi eleito pela revista Autoesporte o Carro do Ano em 1969, 1973 e 1979.A fábrica fez algumas alterações na aparência geral do carro em 1973, deixando-o um pouco parecido com o Ford Maverick. Os motores passaram a ser o 1.4 usado na linha GT, conhecido como motor XP. Em 1975 o design era novamente retocado, aumentando a semelhança com o Maverick, sobretudo na traseira. Um novo componente se adicionava a família, o LDO, com acabamento interno luxuoso e teto revestido de vinil.
+                Até 1977, este modelo foi recebendo retoques no acabamento, conservando entretanto a mesma aparência, até o lançamento da linha 1978 - era o Corcel II, basicamente com a mesma mecânica porém com uma carroceria totalmente remodelada, que em nada lembrava o modelo anterior. Em 1985, ganhou a frente do Del Rey (lançado em 1981 e ao qual deu origem) e alguns retoques estilísticos, além de perder a expressão "II" do nome. 
+                Este modelo existiu até o ano de 1986, quando foi encerrada sua produção.</p>
+            </p>
 
+            <h3 style="margin-top: 50px; text-align: right;">Ford Capri (1969)</h3>
+                <img class = "carRight" src="./img/fordcapri.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Ford Capri, um dos mais emblemáticos coupés europeus, desde 24 de Janeiro 1969. Começou por surgir como 'Projecto Colt' nos ateliers da Europa, como resposta ao sucesso que o Mustang estava a ter do outro lado do Atlântico, e cedo se mostrou um caso de sucesso no Velho Continente.
+                Depois de várias propostas e desenhos terem sido analisados, em meados de 1966, a Ford deu o aval ao início do desenvolvimento do projecto, com um investimento inicial de 20 milhões de libras. Em novembro do ano seguinte, a designação Colt dá lugar a Capri, nome proveniente da ilha sita ao largo de Itália e que a Ford já havia utilizado noutro modelo, o Consul Capri. 
+                No mesmo mês de 1968 arrancava na fábrica de Halewood (Inglaterra) a produção do Ford Capri, mas com sucesso que viria a conhecer fez com que passasse também a sair de Dagenham (Inglaterra), Genk (Bélgica), Colónia e Saarlouis (Alemanha).
+                A apresentação pública ocorreu a 24 de janeiro de 1969, por ocasião do Salão de Bruxelas (Bélgica). 
+            </p>
 
-            <h3>Ford Zephyr (1955)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordzephyr.jpg" class="img2" alt="fordzephyr" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Ford Zephyr é um carro construído pela Ford da Bretanha no Reino Unido. Foi comercializado entre os anos 1950 e 1962, como um poderoso modelo de seis cilíndros. A partir de 1962 eram vendidos modelos de quatro cilíndros também.</p>
-                    </p>
-                </td>
-            </table>
+            <h3 style="margin-top: 50px;">Ford Maverick (1973)</h3>
+                <img class = "carLeft" src="./img/fordmaverick.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Maverick (pronuncia-se máverick) foi um automóvel criado pela Ford dos Estados Unidos que obteve grande sucesso em seu país de origem. Também foi fabricado no Brasil entre 1973 e 1979 em versões exclusivas com motores 4,6 e 8 cilindros, onde foi lançado com enfoque comercial bem diferente do americano, e apesar de não ter obtido o mesmo sucesso de vendas, tornou-se lendário e hoje é cultuado por pessoas de várias idades.Vale ressaltar que o desenhista desse belo carro foi Tom Tjaarda, "pai" de outros ícones automotivos.</p>    
+            </p>
 
-            <h3>Ford Bronco (1966)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordbronco.jpg" class="img5" alt="fordbronco" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Ford Bronco é um automóvel que foi produzido entre 1966 e 1996 pela Ford Motor Company, com cinco diferentes gerações.
-                        O Ford Bronco foi inicialmente produzido como um concorrente do Jeep CJ5, sendo mais confortável que ele. Doze unidades do modelo vieram para o Brasil em 1966-67 por doação do governo americano ao IBGE, e destes, poucos ainda rodam.
-                        O modelo Ford Bronco Branco ficou famoso em 1994 por protagonizar a famosa fuga de O. J. Simpson, quando foi acusado do homicídio de sua ex-esposa Nicole Brown Simpson, a qual foi assassinada em sua casa em Los Angeles, Califórnia, junto com seu amigo Ronald Goldman.</p>
-                    </p>
-                </td>
-            </table>
+            <h3 style="margin-top: 50px; text-align: right;">Ford Verona (1989)</h3>
+                <img class = "carRight" src="./img/fordverona.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Verona é um derivado direto do Ford Orion , um sedã europeu baseado no Escort. A Ford brasileira deu à primeira geração em 1989, do modelo nacional além de carroceria de duas portas, uma traseira com design próprio. Foi produzido até 1996, com uma interrupção durante o ano de 1993 (troca de geração).
+                A 1ª geração do Verona também é chamada de MK4 (4ª geração), devido a possuir praticamente o mesmo acabamento interno e o aspecto externo semelhança com a 4ª geração do Escort, na dianteira apenas a grade era o diferencial.
+            </p>
 
-            <h3>Ford Torino (1968)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordtorino.jpg" class="img4" alt="fordtorino" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Ford Torino é um carro de tamanho médio produzido para o mercado dos Estados Unidos entre 1968 e 1976. inicialmente foi uma remodelação maior do Ford Fairlane, que foi produzido pela Ford entre 1962 e 1970. Após 1968, o nome Torino foi incluído nos carros do modelo Fairlane, sendo considerado uma nova série deste último modelo. A partir de 1970, Fairlane passou a ser considerado como uma sub-série do Torino.</p>
-                    </p>
-                </td>
-            </table>
+            <h3 style="margin-top: 50px;">Ford F-250 (1998)</h3>
+                <img class = "carLeft" src="./img/fordf-250.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                F-250 foi uma caminhonete Full-Size produzida pela Ford do Brasil entre 1998 e 2011.
+                Lançada em 1998 para ser a sucessora da Ford F-1000 (até então a caminhonete Full-Size da marca), em resposta à Chevrolet Silverado, esta lançada em 1997, veio com duas opções de motores no seu ano de estreia, sendo um deles um Cummins Turbo Diesel 4 cilindros em linha, injeção mecânica (3.9L - 145 CV) e outro Ford gasolina 6 cilindros em V, injeção eletrônica (4.2L - 205 CV).
+            </p>
 
-
-            <h3>Ford Corcel (1968)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordcorcel.jpg" class="img7" alt="fordcorcel" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Corcel foi um automóvel médio produzido pela Ford no Brasil, de 1968 a 1986. Foi eleito pela revista Autoesporte o Carro do Ano em 1969, 1973 e 1979.A fábrica fez algumas alterações na aparência geral do carro em 1973, deixando-o um pouco parecido com o Ford Maverick. Os motores passaram a ser o 1.4 usado na linha GT, conhecido como motor XP. Em 1975 o design era novamente retocado, aumentando a semelhança com o Maverick, sobretudo na traseira. Um novo componente se adicionava a família, o LDO, com acabamento interno luxuoso e teto revestido de vinil.
-                        Até 1977, este modelo foi recebendo retoques no acabamento, conservando entretanto a mesma aparência, até o lançamento da linha 1978 - era o Corcel II, basicamente com a mesma mecânica porém com uma carroceria totalmente remodelada, que em nada lembrava o modelo anterior. Em 1985, ganhou a frente do Del Rey (lançado em 1981 e ao qual deu origem) e alguns retoques estilísticos, além de perder a expressão "II" do nome. 
-                        Este modelo existiu até o ano de 1986, quando foi encerrada sua produção.</p>
-                    </p>
-                </td>
-            </table>
-
-
-            <h3>Ford Capri (1969)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordcapri.jpg" class="img6" alt="fordcapri" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Ford Capri, um dos mais emblemáticos coupés europeus, desde 24 de Janeiro 1969. Começou por surgir como 'Projecto Colt' nos ateliers da Europa, como resposta ao sucesso que o Mustang estava a ter do outro lado do Atlântico, e cedo se mostrou um caso de sucesso no Velho Continente.
-                        Depois de várias propostas e desenhos terem sido analisados, em meados de 1966, a Ford deu o aval ao início do desenvolvimento do projecto, com um investimento inicial de 20 milhões de libras. Em novembro do ano seguinte, a designação Colt dá lugar a Capri, nome proveniente da ilha sita ao largo de Itália e que a Ford já havia utilizado noutro modelo, o Consul Capri. 
-                        No mesmo mês de 1968 arrancava na fábrica de Halewood (Inglaterra) a produção do Ford Capri, mas com sucesso que viria a conhecer fez com que passasse também a sair de Dagenham (Inglaterra), Genk (Bélgica), Colónia e Saarlouis (Alemanha).
-                        A apresentação pública ocorreu a 24 de janeiro de 1969, por ocasião do Salão de Bruxelas (Bélgica). </p>
-                    </p>
-                </td>
-            </table>
-
-
-            <h3>Ford Maverick (1973)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordmaverick.jpg" class="img3" alt="fordmaverick" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-                
-                <td>
-                    <p class="border">
-                    <p>O Maverick (pronuncia-se máverick) foi um automóvel criado pela Ford dos Estados Unidos que obteve grande sucesso em seu país de origem. Também foi fabricado no Brasil entre 1973 e 1979 em versões exclusivas com motores 4,6 e 8 cilindros, onde foi lançado com enfoque comercial bem diferente do americano, e apesar de não ter obtido o mesmo sucesso de vendas, tornou-se lendário e hoje é cultuado por pessoas de várias idades.Vale ressaltar que o desenhista desse belo carro foi Tom Tjaarda, "pai" de outros ícones automotivos.</p>    
-                    </p>
-                </td>
-            </table>
-
-
-            <h3>Ford Verona (1989)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordverona.jpg" class="img9" alt="fordverona" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p>O Verona é um derivado direto do Ford Orion , um sedã europeu baseado no Escort. A Ford brasileira deu à primeira geração em 1989, do modelo nacional além de carroceria de duas portas, uma traseira com design próprio. Foi produzido até 1996, com uma interrupção durante o ano de 1993 (troca de geração).
-                        A 1ª geração do Verona também é chamada de MK4 (4ª geração), devido a possuir praticamente o mesmo acabamento interno e o aspecto externo semelhança com a 4ª geração do Escort, na dianteira apenas a grade era o diferencial.
-                    </p>
-                    </p>
-                </td>
-            </table>
-
-
-
-            <h3>Ford F-250 (1998)</h3>
-            <table>
-                <td>
-                    <img src="./img/fordf-250.jpg" class="img8" alt="fordf-250" style="width: 350px; height: 200px; margin-top:20px;">
-                </td>
-            
-                <td>
-                    <p class="border">
-                    <p> F-250 foi uma caminhonete Full-Size produzida pela Ford do Brasil entre 1998 e 2011.
-                        Lançada em 1998 para ser a sucessora da Ford F-1000 (até então a caminhonete Full-Size da marca), em resposta à Chevrolet Silverado, esta lançada em 1997, veio com duas opções de motores no seu ano de estreia, sendo um deles um Cummins Turbo Diesel 4 cilindros em linha, injeção mecânica (3.9L - 145 CV) e outro Ford gasolina 6 cilindros em V, injeção eletrônica (4.2L - 205 CV).
-
-                    </p>
-                    </p>
-                </td>
-            </table>
-
-        
-
-            </div>
-        </div>
+        </div> 
+    </div>
 
 </body>
 </html>

@@ -1,54 +1,104 @@
 <!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </head>
 
-<head>
-    <meta lang="pt-pt">
-    <meta charset="utf-8">
-    <title>Modelos Modernos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
 <body>
 
-    <style>
-        body {
-            background-image: url("./img/wallpaper.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
-            background-size: 100% 100%;
-        }
-        
-        img{
-            width: 100%;
-        }
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #0862bb;">     
+        <a class="navbar-brand text-success" href="index.html"> 
+          <img src="./img/ford-logo.png" alt="logo" style="width: 50%; margin-top: 40px;">
+        </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+      <li class="nav-item ">
+          <a class="nav-link" href="index.html" style="color: black;"><b>Home</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="historia.html" style="color: black;"><b>História</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="modelosclassicos.html" style="color: black;"><b>Modelos Clássicos</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="modelosmodernos.html" style="color: black;"><b>Modelos Modernos</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="contactos.html" style="color: black;"><b>Contactos</b></a>
+      </li>
+  </ul>
+  </div>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Escreve...">
+    <button class="btn btn-light" type="submit">Pesquisar</button>
+  </form>
+  
+  </nav>
 
 
-    </style>
+    <div class = "container">
+        <div class="bloco-texto">
+            <h3 style="margin-top: 10px;"> Ford C-Max (2003)</h3>
+                <img class = "carLeft" src="./img/fordc-max.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O C-Max é um monovolume compacto produzido pela Ford em Saarlouis para o mercado europeu desde 2003. Tal como o Ford Focus, utiliza a plataforma C1. Com capacidade para cinco passageiros, tem um espaço de carga generoso que pode ser aumentado dobrando os bancos traseiros. Algumas versões possuem dois bancos adicionais rebatíveis na bagageira, ficando assim com capacidade para sete ocupantes.</p>
+            </p>    
+            
+            <h3 style="margin-top: 50px; text-align: right;"> Ford Mondeo (2000)</h3>
+                <img class = "carRight" src="./img/fordmondeo.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Mondeo é um modelo de porte médio grande produzido pela Ford desde 1993 na planta de Genk, Bélgica. De início existiam três versões possíveis: hatchback, sedan e station wagon. Foi fabricado nos Estados Unidos sob o nome de Ford Contour, entre 1995 e 2000, tendo também tido uma versão para a Mercury, chamada de Mystique. No Brasil desde 1995, foi oferecido nas configurações hatch, sedan e station wagon.
+                Em 1997 este modelo foi reestilizado, procedendo-se apenas a modificações estéticas, já que a estrutura e motores mantiveram-se inalterados. O hatch deixou de ser oferecido no Brasil, mas ainda segue sendo vendido fora do país.
+            </p>
 
-    <nav id="Menuprincipal">
-        <ul>
-            <img src="img/ford-logo.png" class="img">
-            <li><a href= "index.html"><b>Home</b></a></li>
-            <li><a href= "historia.html"><b>História</b></a></li>
-            <li><a href= "modelosclassicos.html"><b>Modelos Clássicos</b></a></li>
-            <li><a href= "modelosmodernos.html"><b>Modelos Modernos</b></a></li>
-            <li><a href= "contactos.html"><b>Contactos</b></a></li>
-        </ul>
-    </nav>
+            <h3 style="margin-top: 50px;"> Ford Mustang(2012)</h3>
+                <img class = "carLeft" src="./img/fordmustang.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Mustang de quinta geração foi introduzido pela Ford em 2004 no North American International Auto Show, a Ford nomeou sua carroceria de ''S-197". O desenvolvimento ficou sob controle do engenheiro Hau Thai-Tang e, o responsável pelo design do exterior foi Sid Ramnarace, o design dessa geração remete aos Mustang Fastback do final dos anos 60.
+                O Mustang 2010 foi lançado em 2009 com um facelift que incluía lanternas traseiras com LEDs sequenciais.
+                Em 2012 foi introduzido o Mustang Boss 302 que recebia o motor ''Coyote'' com 444 bhp. Também era disponibilizada uma versão chamada ''Laguna Seca'', essa versão tinha uma barra no lugar do banco traseiro para endurecimento da carroceria e melhorias no trem de força e na dirigibilidade.
+            </p>
 
-    <div class="container">
-        <div class="texto">
-    
-        <h3> Ford C-Max (2003)</h3>
-        <table>
-            <td>
-                <img src="./img/fordc-max.jpg" class="img9" alt="fordc-max" style="width: 350px; height: 200px; margin-top:20px;">
-            </td>
+            <h3 style="margin-top: 50px; text-align: right;"> Ford Ranger(2011)</h3>
+                <img class = "carRight" src="./img/fordranger.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                A Ranger é uma picape média da Ford. No Brasil teve sua estreia no ano de 1994 de segunda geração do modelo, isto é, está a no mercado desde a metade da década de 90. Existiu também uma versão fabricada pela Mazda como serie "B" Mazda B-Series.
+                Esta camionete é fabricada nos Estados Unidos para o mercado norte-americano, e também fabricado na Argentina na fábrica da Ford em General Pacheco para os mercados latino-americano da Argentina, Brasil, Chile, Peru e México, entre outros.[1][2]
+                No Brasil, tem como concorrente a picape, também veterana, Chevrolet S-10, praticamente com a mesma idade, e as outras Mitsubishi L200, Volkswagen Amarok, Toyota Hilux e Nissan Frontier no mercado de picapes leves.[nota 1]
+                A última atualização da Ranger, no Brasil, se deu no segundo semestre do ano de 2012, deixando-a muito mais moderna do que a geração anterior e, com a adoção do câmbio automático, para concorrer diretamente com Volkswagen Amarok, Chevrolet S-10, Nissan Frontier e Toyota Hilux.
+            </p>
 
-            <td>
-                <p class="border">
-                <p>O C-Max é um monovolume compacto produzido pela Ford em Saarlouis para o mercado europeu desde 2003. Tal como o Ford Focus, utiliza a plataforma C1. Com capacidade para cinco passageiros, tem um espaço de carga generoso que pode ser aumentado dobrando os bancos traseiros. Algumas versões possuem dois bancos adicionais rebatíveis na bagageira, ficando assim com capacidade para sete ocupantes.</p>
-                </p>
-            </td>
-        </table>
+            <h3 style="margin-top: 50px;"> Ford Ka(2018)</h3>
+                <img class = "carLeft" src="./img/fordka.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Ka é um modelo de carro urbano fabricado pela Ford no Brasil, em sua fábrica em Camaçari, anteriormente em São Bernardo do Campo e na Europa. A versão brasileira era exportada para toda América Latina, enquanto a versão européia é produzida em Valência, na Espanha. No Brasil era um subcompacto na primeira geração, na Europa oferecia também versões esportivas (denominado SportKa) e conversíveis (denominado StreetKa). Na segunda geração, passou a ser um compacto.
+                Em sua terceira geração passou a oferecer duas versões de carrocerias: hatch (denominado Ka) e sedan (denominado Ka+).
+            </p>
+
+            <h3 style="margin-top: 50px; text-align: right;"> Ford Fiesta (2019)</h3>
+                <img class = "carRight" src="./img/fordfiesta.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                O Fiesta é um carro hatchback produzido pela Ford desde 1976. Atualmente, se encontra em sua sétima geração. O Fiesta é um projeto global, sendo fabricado e comercializado em vários lugares do mundo. É comercializado em vários lugares da Europa, América, Ásia, Oceania e África.
+                Mais de 16 milhões de unidades já foram vendidas desde o lançamento, o que torna o Fiesta o terceiro veículo mais vendido da Ford atrás apenas do Escort e da F-Series.
+                Foi retirado de linha na América do Sul em 2019, por causa das baixas vendas.
+            </p>
+
+            <h3 style="margin-top: 50px;">Ford Focus(2019)</h3>
+                <img class = "carLeft" src="./img/fordfocus.jpg" width = "200px" height="auto"></img>
+            <p class="border">
+                Focus é um automóvel fabricado pela Ford a partir de 1998 para suceder o Escort e, à época de seu lançamento, disputar mercado com os mais modernos Fiat Brava, Chevrolet Astra (Opel Astra em Portugal) e Volkswagen Golf. Oferecendo motores mais modernos do que o modelo substituído e novo design, a Ford pretendia que Focus alcançasse o mesmo sucesso que o antecessor Escort. Uma de suas inovações na categoria foi a suspensão traseira multibraço, o que permitiu que o Focus disputasse com o Golf a qualificação de hatch que proporciona mais prazer em dirigir. A versão vendida na América do Sul começou a ser produzida em 2000, na fábrica de General Pacheco, Argentina, de onde, desde então, foi exportado ao Brasil. Foi retirado de linha no país e na América do Sul em 2019, pelas baixas vendas e da decadência de hatches médios no continente.
+            </p>
+        </div>
+    </div>
+
 
 </body>
 </html>
